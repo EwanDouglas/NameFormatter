@@ -21,9 +21,9 @@ namespace NameFormat
             lstOutput.Items.Add(txtTitle.Text + " " + txtFirst.Text + " " + txtMiddle.Text + " " + txtLast.Text);
             lstOutput.Items.Add(txtFirst.Text + " " + txtMiddle.Text + " " + txtLast.Text);
             lstOutput.Items.Add(txtFirst.Text + " " + txtLast.Text);
-            lstOutput.Items.Add(txtLast.Text + "," + txtFirst.Text + " " + txtMiddle.Text + "," + txtTitle.Text);
-            lstOutput.Items.Add(txtLast.Text + "," + txtFirst.Text + " " + txtMiddle.Text);
-            lstOutput.Items.Add(txtLast.Text + "," + txtFirst.Text);
+            lstOutput.Items.Add(txtLast.Text + ", " + txtFirst.Text + " " + txtMiddle.Text + "," + txtTitle.Text);
+            lstOutput.Items.Add(txtLast.Text + ", " + txtFirst.Text + " " + txtMiddle.Text);
+            lstOutput.Items.Add(txtLast.Text + ", " + txtFirst.Text);
         }
 
         private void btnClear_Click(object sender, EventArgs e)
