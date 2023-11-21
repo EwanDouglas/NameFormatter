@@ -1,7 +1,7 @@
-# NameFormat
+# Name Formatter
 
 <h2>Description</h2>
-Project consists of a simple Visual Studio form that allows users to play a game of rock, paper, scissors versus a computer. The computer's choice is determined by a random number generator which is then compared to the user's input. After each hand the result is announced and the user has the option to play again or exit.
+Project consists of a simple Visual Studio form that allows users to enter their name and recieve various formats as the output. 
 
 
 <br />
