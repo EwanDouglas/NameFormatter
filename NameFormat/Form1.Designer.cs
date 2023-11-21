@@ -125,32 +125,35 @@
             // 
             // btnShow
             // 
+            btnShow.BackColor = Color.FromArgb(192, 255, 192);
             btnShow.Location = new Point(675, 301);
             btnShow.Name = "btnShow";
             btnShow.Size = new Size(153, 47);
             btnShow.TabIndex = 9;
             btnShow.Text = "Show Name:";
-            btnShow.UseVisualStyleBackColor = true;
+            btnShow.UseVisualStyleBackColor = false;
             btnShow.Click += btnShow_Click;
             // 
             // btnClear
             // 
+            btnClear.BackColor = SystemColors.ActiveCaption;
             btnClear.Location = new Point(675, 370);
             btnClear.Name = "btnClear";
             btnClear.Size = new Size(153, 47);
             btnClear.TabIndex = 10;
             btnClear.Text = "Clear";
-            btnClear.UseVisualStyleBackColor = true;
+            btnClear.UseVisualStyleBackColor = false;
             btnClear.Click += btnClear_Click;
             // 
             // btnExit
             // 
+            btnExit.BackColor = Color.FromArgb(255, 192, 192);
             btnExit.Location = new Point(675, 444);
             btnExit.Name = "btnExit";
             btnExit.Size = new Size(153, 47);
             btnExit.TabIndex = 11;
             btnExit.Text = "Exit";
-            btnExit.UseVisualStyleBackColor = true;
+            btnExit.UseVisualStyleBackColor = false;
             btnExit.Click += btnExit_Click;
             // 
             // Form1
